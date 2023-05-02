@@ -37,7 +37,7 @@ Banco de Dados Relacional
 
             select Usuario.nome, Usuario.email
             from Usuario
-            where Usuario.sexto = 'Masculino' or Usuario.dataNascimento < '10/03/1974'
+            where Usuario.sexo = 'Masculino' or Usuario.dataNascimento < '10/03/1974'
 
         - Interseções
             - é uma operação lógica tipo AND 
