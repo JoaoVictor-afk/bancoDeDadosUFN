@@ -30,7 +30,7 @@ Banco de Dados Relacional
 
             select Usuario.nome, Usuario.email
             from Usuario
-            where Usuario.sexto = 'Masculino'
+            where Usuario.sexo = 'Masculino'
 
         - Uniões
             - é uma operação lógica tipo OR
